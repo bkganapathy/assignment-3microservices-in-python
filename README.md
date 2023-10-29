@@ -1,2 +1,36 @@
 # assignment-3microservices-in-python
 Scalable Services Assignment
+- Tutorial Link - https://www.youtube.com/watch?v=SdTzwYmsgoU
+- Install Git on your system
+  - winget install --id Git.Git -e --source winget          # Type in cmd prompt to install git  
+  - OR Download latest version of Github manually
+- Create a Git hub repository
+  - Copy the link of the repository
+  - git clone <repository link>         #type in cmd prompt. 
+  - code .      # to open repository in vscode
+- Installing Python 3.X
+  - Download latest version of Python  
+  - python --version        # Type in cmd prompt to check version 
+- Creating Python Virtual Environments
+  - python -m venv entrypoint-env       # Create a new Virtual Environment entrypoint
+  - entrypoint-env\Scripts\activate     # Activate entrypoint Virtual Environment
+- Installing Python VS Code Extension
+  - Click on 'Extensions' icon in VS Code screen
+  - Click on Popular
+  - Click on Python and select 'Install' option
+- Login Flask Application
+  - Install Flask
+    - pip install flask         # Type in terminal and press enter
+    - if above command is typed in virtual environment then flask will be installed in virtual environment only and not in master Python
+    - Create a src folder in the project
+    - Within src folder create an login.py file
+    - Generate application code into app.py      # https://flask.palletsprojects.com/en/3.0.x/ for minimal application reference
+    - cd src        # Type in terminal to change to src directory in virtual environment
+    - flask --app testrun run       # Type in terminal to run testrun.py
+    - Open http://127.0.0.1:5000 to view content of execution
+- Jinja templating for Dynamic Web Pages
+- Using Pip to Freeze Python Dependencies
+- Building the docker image using Dockerfile
+- Writing Docker Compose file
+- Writing Kubernetes Manifest files for the application
+- Creating Helm Chart
